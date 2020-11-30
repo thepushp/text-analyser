@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    
+    text-transform: capitalize;
+    padding: 40px;
+    margin: 0;
+    height: 42rem;
+	overflow-x: hidden; /* For Opera */
+	-webkit-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	-moz-box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+	box-shadow:
+		inset #19d4ff 0 0 0 5px,
+		inset #18cdf7 0 0 0 1px,
+		inset #53dfff 0 0 0 10px,
+		inset #50d8f7 0 0 0 11px,
+		inset #8ce9ff 0 0 0 16px,
+		inset #88e2f7 0 0 0 17px,
+		inset #c5f4ff 0 0 0 22px,
+		inset #bfecf7 0 0 0 23px;
+    border-radius: 10px;
+    background-color: #fffaa4;
+}
+table{
+    padding: 20px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 20px 10px;
+}
+
+th{
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 20px;
+    background-color: blue;
+    border:2px solid black;
+    border-radius: 50%;
+}
+#animated {
+    width: 200px;
+    background-color: chartreuse;
+    box-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+    color: crimson;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    border:3px solid rgb(241, 234, 234);
+    border-radius: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+#text{
+    padding-top: 20px;
+    border-radius: 5px;
+}
+#symbol,#number,#word,#total,#alph{
+    width: 150px;
+    height: 150px;
+    background-color:#ff414d;
+    margin-bottom: 100px;
+    margin-left: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
