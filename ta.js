@@ -53,7 +53,13 @@ setInterval("changecolor()",500);
         el6.innerHTML=n;
     }
     function sym(){
-        el5.innerHTML=`${el1.value.length}`-al-n;
+        var x=0;
+        var s=`${el1.value}`;
+        var res = s.split(" ");
+        for(var i=0;i<s.length;i++)
+        if(s[i]==" ")
+        x++;
+        el5.innerHTML=`${el1.value.length}`-al-n-x;
     }
     function wrd(){
         var s=`${el1.value}`;
