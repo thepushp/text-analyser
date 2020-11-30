@@ -60,6 +60,7 @@ setInterval("changecolor()",500);
         if(s[i]==" ")
         x++;
         el5.innerHTML=`${el1.value.length}`-al-n-x;
+
     }
     function wrd(){
         var s=`${el1.value}`;
