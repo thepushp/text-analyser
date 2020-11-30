@@ -1,4 +1,11 @@
-
+window.addEventListener("click",function(){
+    el1.value="";
+    el2.innerHTML="0";
+    el3.innerHTML="0";
+    el4.innerHTML="0";
+    el5.innerHTML="0";
+    el6.innerHTML="0";
+});
 var header=document.querySelectorAll("th");
 for(var i=0;i<header.length;i++)
 header[i].style.color='white'
@@ -49,12 +56,9 @@ setInterval("changecolor()",500);
         el5.innerHTML=`${el1.value.length}`-al-n;
     }
     function wrd(){
-        var x=0;
         var s=`${el1.value}`;
-        for(var i=0;i<s.length;i++)
-        if(s[i]==" ")
-            x++;
-        el4.innerHTML=x;
+        var res = s.split(" ");
+        el4.innerHTML=res.length;
     }
 function qualichange(){
     el2.innerHTML=`${String(el1.value.length)}`;
