@@ -1,1 +1,1 @@
-<?php include_once("rextanyl.html"); ?>
+<?php include_once("textanyl.html"); ?>
