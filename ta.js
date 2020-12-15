@@ -64,10 +64,16 @@ setInterval("changecolor()",500);
     }
     function wrd(){
         var s=`${el1.value}`;
-        var wal=0;
+        var wal=1;
         for(var i=1;i<s.length;i++)
-        if((s[i]>="a"&&s[i]<="z")&&s[i-1]==" ")
+        {if((s[i]>="a"&&s[i]<="z")&&s[i-1]==" ")
         wal++;
+        else if((s[i]>="a"&&s[i]<="z")&&s[0]==" "&&s[i-1]==" ")
+        wal++;}
+        if(s[0]==" ")
+        wal--;
+        if(s.length==0)
+        wal=0;
         el4.innerHTML=wal;
     }
 function qualichange(){
