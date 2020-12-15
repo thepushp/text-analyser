@@ -64,8 +64,11 @@ setInterval("changecolor()",500);
     }
     function wrd(){
         var s=`${el1.value}`;
-        var res = s.split(" ");
-        el4.innerHTML=res.length;
+        var wal=0;
+        for(var i=1;i<s.length;i++)
+        if((s[i]>="a"&&s[i]<="z")&&s[i-1]==" ")
+        wal++;
+        el4.innerHTML=wal;
     }
 function qualichange(){
     el2.innerHTML=`${String(el1.value.length)}`;
